@@ -1,10 +1,13 @@
 package botones;
 
+
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
 public class pruebaeventos {
+
 
     public static void main(String[] args) {
         marcobotones mimarco = new marcobotones();
@@ -12,6 +15,7 @@ public class pruebaeventos {
         mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
+
 
 }
 
@@ -39,6 +43,8 @@ class laminabotones extends JPanel implements ActionListener {
     JButton botonrosado = new JButton("rosado");
     JButton botongris = new JButton("gris");
 
+
+
     public laminabotones() {
         add(botonazul);
         add(botonamarillo);
@@ -50,6 +56,8 @@ class laminabotones extends JPanel implements ActionListener {
         add(botongris);
         add(botonnaranja);
 
+
+
         botonazul.addActionListener(this);
         botonamarillo.addActionListener(this);
         botonrojo.addActionListener(this);
@@ -60,6 +68,7 @@ class laminabotones extends JPanel implements ActionListener {
         botongris.addActionListener(this);
         botonnaranja.addActionListener(this);
     }
+
 
     public void actionPerformed(ActionEvent e) {
         Object pulse_aqui = e.getSource();
