@@ -26,9 +26,9 @@ public class calculadora extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     public float primernumero;
-     public float segundonumero;
-     public String operador;
-    
+    public float segundonumero;
+    public String operador;
+
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -67,139 +67,155 @@ public class calculadora extends javax.swing.JFrame {
         jLabel1.setOpaque(true);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(153, 255, 153));
 
-        clear.setBackground(new java.awt.Color(255, 255, 255));
+        clear.setBackground(new java.awt.Color(102, 102, 255));
         clear.setText("c");
-        clear.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        clear.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         clear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearActionPerformed(evt);
             }
         });
 
+        div.setBackground(new java.awt.Color(102, 102, 255));
         div.setText("/");
-        div.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        div.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         div.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 divActionPerformed(evt);
             }
         });
 
+        menos.setBackground(new java.awt.Color(102, 102, 255));
         menos.setText("-");
-        menos.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        menos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         menos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menosActionPerformed(evt);
             }
         });
 
+        multi.setBackground(new java.awt.Color(102, 102, 255));
         multi.setText("*");
-        multi.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        multi.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         multi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 multiActionPerformed(evt);
             }
         });
 
+        mas.setBackground(new java.awt.Color(102, 102, 255));
         mas.setText("+");
-        mas.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        mas.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         mas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 masActionPerformed(evt);
             }
         });
 
+        ocho.setBackground(new java.awt.Color(102, 102, 255));
         ocho.setText("8");
-        ocho.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        ocho.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         ocho.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ochoActionPerformed(evt);
             }
         });
 
+        siete.setBackground(new java.awt.Color(102, 102, 255));
         siete.setText("7");
-        siete.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        siete.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         siete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sieteActionPerformed(evt);
             }
         });
 
+        seis.setBackground(new java.awt.Color(102, 102, 255));
         seis.setText("6");
-        seis.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        seis.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         seis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 seisActionPerformed(evt);
             }
         });
 
+        cuatro.setBackground(new java.awt.Color(102, 102, 255));
         cuatro.setText("4");
-        cuatro.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        cuatro.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         cuatro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cuatroActionPerformed(evt);
             }
         });
 
+        cinco.setBackground(new java.awt.Color(102, 102, 255));
         cinco.setText("5");
-        cinco.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        cinco.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         cinco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cincoActionPerformed(evt);
             }
         });
 
+        tres.setBackground(new java.awt.Color(102, 102, 255));
         tres.setText("3");
-        tres.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        tres.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tres.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tresActionPerformed(evt);
             }
         });
 
+        dos.setBackground(new java.awt.Color(102, 102, 255));
         dos.setText("2");
-        dos.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        dos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         dos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dosActionPerformed(evt);
             }
         });
 
+        uno.setBackground(new java.awt.Color(102, 102, 255));
         uno.setText("1");
-        uno.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        uno.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         uno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 unoActionPerformed(evt);
             }
         });
 
+        punto.setBackground(new java.awt.Color(102, 102, 255));
         punto.setText(".");
-        punto.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        punto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         punto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 puntoActionPerformed(evt);
             }
         });
 
+        cero.setBackground(new java.awt.Color(102, 102, 255));
         cero.setText("0");
-        cero.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        cero.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         cero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ceroActionPerformed(evt);
             }
         });
 
+        nueve.setBackground(new java.awt.Color(102, 102, 255));
         nueve.setText("9");
-        nueve.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        nueve.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         nueve.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nueveActionPerformed(evt);
             }
         });
 
+        igaul.setBackground(new java.awt.Color(102, 102, 255));
         igaul.setText("=");
-        igaul.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        igaul.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         igaul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 igaulActionPerformed(evt);
@@ -308,22 +324,22 @@ public class calculadora extends javax.swing.JFrame {
 
     private void divActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divActionPerformed
         // TODO add your handling code here:
-        this.primernumero=Float.parseFloat(this.pantalla.getText());
-        this.operador="/";
+        this.primernumero = Float.parseFloat(this.pantalla.getText());
+        this.operador = "/";
         this.pantalla.setText("");
     }//GEN-LAST:event_divActionPerformed
 
     private void menosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menosActionPerformed
         // TODO add your handling code here:
-        this.primernumero=Float.parseFloat(this.pantalla.getText());
-        this.operador="-";
+        this.primernumero = Float.parseFloat(this.pantalla.getText());
+        this.operador = "-";
         this.pantalla.setText("");
     }//GEN-LAST:event_menosActionPerformed
 
     private void multiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiActionPerformed
         // TODO add your handling code here:
-        this.primernumero=Float.parseFloat(this.pantalla.getText());
-        this.operador="*";
+        this.primernumero = Float.parseFloat(this.pantalla.getText());
+        this.operador = "*";
         this.pantalla.setText("");
     }//GEN-LAST:event_multiActionPerformed
 
@@ -333,78 +349,82 @@ public class calculadora extends javax.swing.JFrame {
 
     private void masActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masActionPerformed
         // TODO add your handling code here:
-        this.primernumero=Float.parseFloat(this.pantalla.getText());
-        this.operador="+";
+        this.primernumero = Float.parseFloat(this.pantalla.getText());
+        this.operador = "+";
         this.pantalla.setText("");
 
     }//GEN-LAST:event_masActionPerformed
 
     private void ochoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ochoActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"8");
+        this.pantalla.setText(this.pantalla.getText() + "8");
     }//GEN-LAST:event_ochoActionPerformed
 
     private void sieteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sieteActionPerformed
         // TODO add your handling code here:
-        this.pantalla.setText(this.pantalla.getText()+"7");
+        this.pantalla.setText(this.pantalla.getText() + "7");
     }//GEN-LAST:event_sieteActionPerformed
 
     private void seisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seisActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"6");
+        this.pantalla.setText(this.pantalla.getText() + "6");
     }//GEN-LAST:event_seisActionPerformed
 
     private void cuatroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cuatroActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"4");
+        this.pantalla.setText(this.pantalla.getText() + "4");
     }//GEN-LAST:event_cuatroActionPerformed
 
     private void cincoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cincoActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"5");
+        this.pantalla.setText(this.pantalla.getText() + "5");
     }//GEN-LAST:event_cincoActionPerformed
 
     private void tresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tresActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"3");
+        this.pantalla.setText(this.pantalla.getText() + "3");
     }//GEN-LAST:event_tresActionPerformed
 
     private void dosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dosActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"2");
+        this.pantalla.setText(this.pantalla.getText() + "2");
     }//GEN-LAST:event_dosActionPerformed
 
     private void unoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_unoActionPerformed
-       this.pantalla.setText(this.pantalla.getText()+"1");
+        this.pantalla.setText(this.pantalla.getText() + "1");
     }//GEN-LAST:event_unoActionPerformed
 
     private void puntoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_puntoActionPerformed
         // TODO add your handling code here:
-        
+        this.pantalla.setText(this.pantalla.getText() + ".");
     }//GEN-LAST:event_puntoActionPerformed
 
     private void ceroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ceroActionPerformed
         // TODO add your handling code here:
-         this.pantalla.setText(this.pantalla.getText()+"0");
+        this.pantalla.setText(this.pantalla.getText() + "0");
     }//GEN-LAST:event_ceroActionPerformed
 
     private void nueveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nueveActionPerformed
         // TODO add your handling code here:
-        this.pantalla.setText(this.pantalla.getText()+"9");
+        this.pantalla.setText(this.pantalla.getText() + "9");
     }//GEN-LAST:event_nueveActionPerformed
 
     private void igaulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_igaulActionPerformed
         // TODO add your handling code here:
-        this.segundonumero=Float.parseFloat(this.pantalla.getText());
-        switch (this.operador){
-              case "+":this.pantalla.setText(Float.toString(this.primernumero+this.segundonumero));
-        break;
-            case "-":this.pantalla.setText(Float.toString(this.primernumero-this.segundonumero)); 
-            break;
-            case "*":this.pantalla.setText(Float.toString(this.primernumero*this.segundonumero)); 
-            break;
-            case "/":this.pantalla.setText(Float.toString(this.primernumero/this.segundonumero)); 
-            break;
+        this.segundonumero = Float.parseFloat(this.pantalla.getText());
+        switch (this.operador) {
+            case "+":
+                this.pantalla.setText(Float.toString(this.primernumero + this.segundonumero));
+                break;
+            case "-":
+                this.pantalla.setText(Float.toString(this.primernumero - this.segundonumero));
+                break;
+            case "*":
+                this.pantalla.setText(Float.toString(this.primernumero * this.segundonumero));
+                break;
+            case "/":
+                this.pantalla.setText(Float.toString(this.primernumero / this.segundonumero));
+                break;
         }
 
     }//GEN-LAST:event_igaulActionPerformed
